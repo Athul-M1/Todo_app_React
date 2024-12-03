@@ -1,0 +1,24 @@
+.container{
+    height: 80vh;
+    width: 40%;
+    background-color: rgb(148, 67, 223);
+}
+body{
+    background-color: blueviolet;
+  }
+  .cards{
+    width: 96%;
+  }
+  .todos p{
+    margin: 0;
+    margin-left: 12%;
+  }
+  .del-icon{
+    margin-left: 70%;
+  }
+  .todo-list-container {
+    max-height: 300px; /* Set a maximum height for the list */
+    overflow-y: auto;  /* Enable vertical scrolling */
+    padding-right: 7px; /* Optional: To add space for the scrollbar */
+  }
+  
